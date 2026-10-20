@@ -1,0 +1,181 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="robots" content="index, follow"><title>OPS-SOP-021 — SOP - PELAPORAN PRODUKSI HARIAN &amp; REVIEW SHIFT</title><meta name="description" content="SOP - PELAPORAN PRODUKSI HARIAN &amp; REVIEW SHIFT. Revisi 04; sumber referensi SOP latihan MineOps Decision Studio."><link rel="canonical" href="https://yudiutomo.github.io/sop/ops-sop-021.html"><style>
+:root{color-scheme:light;--ink:#15283c;--muted:#516478;--line:#dbe5ec;--paper:#fff;--wash:#f5f8fb;--accent:#2f226e;--teal:#087e7a;--focus:#faad42}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.7 system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',Arial,sans-serif;background:var(--wash);color:var(--ink)}
+a{color:#155d83;text-decoration-thickness:1px;text-underline-offset:3px}a:hover{text-decoration-thickness:2px}a:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.site-header{background:#221250;color:white}.header-inner{max-width:1120px;margin:auto;padding:1.15rem 1.5rem;display:flex;gap:1rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.brand{font-weight:750;letter-spacing:.02em}.site-header a{color:white}.site-header nav{display:flex;gap:1.2rem;flex-wrap:wrap;font-size:.93rem}
+.page{max-width:1120px;margin:2rem auto;padding:0 1.5rem}.hero{padding:2rem 2.25rem;border-radius:18px;background:white;border:1px solid var(--line);box-shadow:0 2px 16px rgba(20,35,60,.035)}
+.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.11em;text-transform:uppercase;color:var(--teal)}h1{line-height:1.2;font-size:clamp(1.55rem,3vw,2.5rem);margin:.5rem 0 1rem}p{margin:.5rem 0 1.1rem}.intro{max-width:76ch;color:var(--muted)}
+.notice{background:#f0f4fc;border-left:4px solid #5650a7;padding:1rem 1.1rem;margin-top:1rem;border-radius:0 8px 8px 0;font-size:.94rem}
+.doc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(255px,1fr));gap:1rem;margin:1.4rem 0 2rem}.doc-card{background:white;border:1px solid var(--line);border-radius:14px;padding:1.2rem 1.4rem;display:flex;flex-direction:column;gap:.4rem}.doc-card a{font-size:1.08rem;font-weight:750}.doc-card .id{font-size:.78rem;color:var(--teal);font-weight:760;letter-spacing:.08em}.doc-card p{font-size:.92rem;color:var(--muted);margin:0}.doc-card .meta{font-size:.85rem;margin-top:auto;padding-top:.5rem}
+.doc-layout{display:grid;grid-template-columns:230px minmax(0,1fr);gap:1.4rem;align-items:start}.toc{position:sticky;top:1rem;border:1px solid var(--line);background:white;border-radius:12px;padding:1.15rem;font-size:.87rem}.toc-title{font-weight:760;margin:0 0 .45rem}.toc ul{padding-left:1.1rem;margin:.3rem 0}.toc li{padding:.12rem 0}.toc a{color:#28445c}
+.doc-sheet{min-width:0;background:white;border:1px solid var(--line);border-radius:14px;padding:2rem 2.4rem;overflow-wrap:anywhere}.doc-sheet .doc-title{font-size:clamp(1.35rem,2.5vw,2.05rem);margin:0 0 1.2rem;line-height:1.32;overflow-wrap:normal}
+.doc-sheet h2{font-size:1.25rem;line-height:1.3;color:#281963;margin:1.9rem 0 .6rem;scroll-margin-top:1rem;border-top:1px solid var(--line);padding-top:1.1rem}
+.doc-sheet h2:first-of-type{border:0}.doc-sheet ul,.doc-sheet ol{padding-left:1.55rem}.doc-sheet li{padding:.17rem 0}.doc-sheet li p{margin:0}
+.table-wrap{max-width:100%;overflow-x:auto;margin:1rem 0 1.4rem;border:1px solid var(--line);border-radius:10px}table{width:100%;border-collapse:collapse;min-width:510px;font-size:.92rem;line-height:1.5}table th,table td{padding:.65rem .7rem;border-bottom:1px solid var(--line);vertical-align:top;text-align:left}table th{background:#f0f4fa;color:#172344}table tbody tr:nth-child(even){background:#fafcff}table tbody tr:last-child td{border-bottom:0}table p{margin:0}table strong{font-weight:720}
+.doc-foot{border-top:1px solid var(--line);margin-top:2rem;padding-top:.8rem;color:var(--muted);font-size:.9rem}.doc-foot p{margin:0}.source-note{margin:1rem 0;font-size:.84rem;color:var(--muted)}
+.site-footer{max-width:1120px;margin:2.5rem auto;padding:1.5rem;border-top:1px solid var(--line);font-size:.83rem;color:var(--muted)}.links{display:flex;gap:1rem;flex-wrap:wrap}
+@media(max-width:880px){.doc-layout{grid-template-columns:1fr}.toc{position:static}.page{padding:0 1rem}.doc-sheet{padding:1.3rem 1rem}.hero{padding:1.5rem}table{font-size:.85rem}}
+@media print{body{background:white}.site-header,.toc,.notice,.site-footer{display:none}.page{margin:0;max-width:none;padding:0}.doc-layout{display:block}.doc-sheet{border:0;padding:0}.table-wrap{overflow:visible}table{min-width:0}a{color:inherit}}
+</style></head><body><header class="site-header"><div class="header-inner"><span class="brand">MineOps · SOP Knowledge</span><nav aria-label="Navigasi situs"><a href="index.html">Indeks SOP</a><a href="manifest.json">Manifest</a></nav></div></header><main class="page"><p class="source-note">Referensi HTML dari DOCX asli · OPS-SOP-021 · Revisi 04 · Berlaku 01 Oktober 2026</p><div class="doc-layout"><nav class="toc" aria-label="Daftar isi dokumen"><p class="toc-title">Daftar isi</p><ul><li><a href="#bagian-1">1. Tujuan</a></li><li><a href="#bagian-2">2. Ruang Lingkup</a></li><li><a href="#bagian-3">3. Definisi</a></li><li><a href="#bagian-4">4. Source Record Minimum</a></li><li><a href="#bagian-5">5. Peran &amp; Tanggung Jawab</a></li><li><a href="#bagian-6">6. Prosedur</a></li><li><a href="#bagian-7">7. Format Management Brief</a></li><li><a href="#bagian-8">8. Quality Gate Sebelum Distribusi</a></li></ul></nav><article class="doc-sheet" id="source-content"><h1 class="doc-title">SOP - PELAPORAN PRODUKSI HARIAN &amp; REVIEW SHIFT</h1><div aria-label="Tabel SOP" class="table-wrap" role="region" tabindex="0"><table>
+<colgroup>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+<col style="width: 25%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Nomor Dokumen</strong></th>
+<th>OPS-SOP-021</th>
+<th><strong>Revisi</strong></th>
+<th>04</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Pemilik Proses</strong></td>
+<td>Perencanaan Operasi</td>
+<td><strong>Tanggal Berlaku</strong></td>
+<td>01 Oktober 2026</td>
+</tr>
+<tr class="even">
+<td><strong>Disetujui Oleh</strong></td>
+<td>Kepala Operasi</td>
+<td><strong>Siklus Review</strong></td>
+<td>12 bulan</td>
+</tr>
+</tbody>
+</table></div><h2 id="bagian-1">1. Tujuan</h2><p>Memastikan laporan produksi harian menyajikan gambaran performa shift yang konsisten, dapat ditelusuri ke sumber, dan siap digunakan untuk pengambilan keputusan, termasuk operational exception, konflik evidence, serta follow-up yang diperlukan sebelum laporan ditutup oleh management.</p><h2 id="bagian-2">2. Ruang Lingkup</h2><p>Berlaku untuk laporan produksi dan hauling harian yang digunakan dalam review operasional. Cakupan mencakup performa produksi, event alat, antrean, keterbatasan area dumping, kondisi haul road, pembatasan akibat cuaca, dan catatan shift handover.</p><h2 id="bagian-3">3. Definisi</h2><div aria-label="Tabel SOP" class="table-wrap" role="region" tabindex="0"><table>
+<colgroup>
+<col style="width: 50%"/>
+<col style="width: 50%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Istilah</strong></th>
+<th><strong>Definisi</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>SUPPORTED</td>
+<td>Pernyataan yang didukung langsung oleh source record yang disetujui atau hasil perhitungan dari nilai pada source.</td>
+</tr>
+<tr class="even">
+<td>INFERENCE</td>
+<td>Interpretasi yang masuk akal dari fakta yang didukung, tetapi belum dinyatakan langsung oleh source.</td>
+</tr>
+<tr class="odd">
+<td>UNKNOWN</td>
+<td>Pertanyaan yang belum dapat dijawab berdasarkan source yang tersedia.</td>
+</tr>
+<tr class="even">
+<td>CONFLICT</td>
+<td>Perbedaan material antara dua atau lebih source yang belum direkonsiliasi.</td>
+</tr>
+<tr class="odd">
+<td>Management brief</td>
+<td>Ringkasan singkat berisi performa, exception, status evidence, isu terbuka, dan keputusan/follow-up yang diperlukan.</td>
+</tr>
+</tbody>
+</table></div><h2 id="bagian-4">4. Source Record Minimum</h2><ul>
+<li><p>Production plan dan actual production record yang disetujui.</p></li>
+<li><p>Fleet / operational event log pada periode pelaporan.</p></li>
+<li><p>Shift handover note atau catatan supervisor shift.</p></li>
+<li><p>Konfirmasi maintenance bila kondisi teknis alat material terhadap laporan.</p></li>
+</ul><h2 id="bagian-5">5. Peran &amp; Tanggung Jawab</h2><div aria-label="Tabel SOP" class="table-wrap" role="region" tabindex="0"><table>
+<colgroup>
+<col style="width: 50%"/>
+<col style="width: 50%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Peran</strong></th>
+<th><strong>Tanggung jawab</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Shift Supervisor</td>
+<td>Mengonfirmasi konteks shift, exception material, isu terbuka, dan follow-up shift berikutnya.</td>
+</tr>
+<tr class="even">
+<td>Dispatch / Control Room</td>
+<td>Menjaga akurasi event timing dan catatan event operasional pada sistem.</td>
+</tr>
+<tr class="odd">
+<td>Operations Planning</td>
+<td>Merekonsiliasi plan vs actual, menyusun ringkasan performa, dan menjaga source traceability.</td>
+</tr>
+<tr class="even">
+<td>Maintenance</td>
+<td>Mengonfirmasi technical finding bila diminta.</td>
+</tr>
+<tr class="odd">
+<td>Operations Manager</td>
+<td>Meninjau exception material yang belum selesai dan menyetujui escalation bila diperlukan.</td>
+</tr>
+</tbody>
+</table></div><h2 id="bagian-6">6. Prosedur</h2><ol type="1">
+<li><p>Konfirmasi periode pelaporan, area operasi, production plan, dan actual production.</p></li>
+<li><p>Hitung variance absolut dan persentase variance dari production record yang disetujui.</p></li>
+<li><p>Identifikasi operating window dengan performance gap paling material.</p></li>
+<li><p>Review event log dan handover record untuk event atau constraint pada operating window yang relevan.</p></li>
+<li><p>Klasifikasikan setiap claim material sebagai SUPPORTED, CONFLICT, INFERENCE, atau UNKNOWN.</p></li>
+<li><p>Pertahankan nilai yang berkonflik sampai source untuk rekonsiliasi ditemukan.</p></li>
+<li><p>Jangan mengubah time overlap, correlation, atau opini supervisor menjadi pernyataan root cause yang confirmed.</p></li>
+<li><p>Susun management brief menggunakan format standar pada Bagian 7.</p></li>
+<li><p>Catat verification yang diperlukan sebelum isu material dapat ditutup.</p></li>
+</ol><h2 id="bagian-7">7. Format Management Brief</h2><div aria-label="Tabel SOP" class="table-wrap" role="region" tabindex="0"><table>
+<colgroup>
+<col style="width: 50%"/>
+<col style="width: 50%"/>
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Bagian</strong></th>
+<th><strong>Isi minimum</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Performance Status</td>
+<td>Plan, actual, variance, reporting period, dan critical operating window.</td>
+</tr>
+<tr class="even">
+<td>Key Exceptions</td>
+<td>Event atau constraint material yang dikonfirmasi source.</td>
+</tr>
+<tr class="odd">
+<td>Supported Evidence</td>
+<td>Fakta dan perhitungan yang didukung langsung oleh source.</td>
+</tr>
+<tr class="even">
+<td>Data Conflicts</td>
+<td>Perbedaan source yang belum selesai, termasuk kedua nilai dan asal source.</td>
+</tr>
+<tr class="odd">
+<td>Possible Contributors</td>
+<td>Faktor yang mungkin berkontribusi namun belum terbukti.</td>
+</tr>
+<tr class="even">
+<td>Unknowns</td>
+<td>Pertanyaan yang belum terjawab oleh evidence saat ini.</td>
+</tr>
+<tr class="odd">
+<td>Decision / Verification Required</td>
+<td>Hal yang perlu diverifikasi sebelum closure.</td>
+</tr>
+<tr class="even">
+<td>Owner</td>
+<td>Gunakan peran accountable bila jelas; bila tidak, tulis OWNER TO ASSIGN.</td>
+</tr>
+</tbody>
+</table></div><h2 id="bagian-8">8. Quality Gate Sebelum Distribusi</h2><ul>
+<li><p>Plan, actual, dan variance sudah direkonsiliasi.</p></li>
+<li><p>Setiap fakta material dapat ditelusuri ke source.</p></li>
+<li><p>Conflict yang belum selesai tetap terlihat.</p></li>
+<li><p>Tidak ada contribution percentage atau causal statement yang unsupported.</p></li>
+<li><p>Laporan menyatakan verification apa yang diperlukan selanjutnya.</p></li>
+</ul><div aria-label="Footer dokumen asli" class="doc-foot"><p>Salinan dokumen terkendali</p></div></article></div><div class="notice"><strong>Catatan publikasi:</strong> Ini adalah reproduksi HTML dari dokumen DOCX yang disediakan untuk demonstrasi/training. Isi SOP direproduksi apa adanya, bukan bukti bahwa dokumen ini adalah kebijakan operasional resmi yang berlaku. Lihat <a href="manifest.json">manifest</a> untuk identitas versi dan checksum sumber.</div></main><footer class="site-footer"><div class="links"><a href="index.html">Kembali ke Indeks SOP</a><a href="originals/01_SOP_Pelaporan_Produksi_Harian_dan_Review_Shift.docx">DOCX sumber</a></div><div>Lokasi klausul dapat dirujuk melalui tautan Bagian pada daftar isi.</div></footer></body></html>

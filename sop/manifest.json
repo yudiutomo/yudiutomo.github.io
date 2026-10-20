@@ -1,0 +1,60 @@
+{
+  "site_name": "MineOps Decision Studio — SOP Knowledge",
+  "canonical_base_url": "https://yudiutomo.github.io/sop/",
+  "publishing_status": "not published by assistant; user must upload files",
+  "content_role": "training examples / reference material, not proof of production policy validity",
+  "source_archive_name": "Knowledge.zip",
+  "source_archive_sha256": "28fe6c535116049775cf3a4284a5a72babee3c847a71bd77e0f8f74eb070d61d",
+  "conversion_method": "Pandoc DOCX-to-HTML5; restored exact Word title and footer; presentation-only structural wrappers and anchors",
+  "text_check": "Document body paragraphs and each individual table-cell text checked in DOCX order against HTML after whitespace normalization",
+  "documents": [
+    {
+      "id": "OPS-SOP-021",
+      "title": "SOP - PELAPORAN PRODUKSI HARIAN & REVIEW SHIFT",
+      "revision": "04",
+      "effective_date": "01 Oktober 2026",
+      "owner": "Perencanaan Operasi",
+      "approved_by_as_written": "Kepala Operasi",
+      "html_file": "ops-sop-021.html",
+      "url": "https://yudiutomo.github.io/sop/ops-sop-021.html",
+      "source_docx": "originals/01_SOP_Pelaporan_Produksi_Harian_dan_Review_Shift.docx",
+      "source_sha256": "4071cdeb5b47766c2acbe702957ab7d3c8bcad8cc92dad4b4640e349259da560",
+      "source_sections": 8,
+      "tables": 4,
+      "body_text_blocks": 83,
+      "footer_text": "Salinan dokumen terkendali"
+    },
+    {
+      "id": "OPS-SOP-034",
+      "title": "SOP - REKONSILIASI EVENT ALAT & DOWNTIME",
+      "revision": "03",
+      "effective_date": "01 Oktober 2026",
+      "owner": "Operasi Tambang",
+      "approved_by_as_written": "Operations Manager",
+      "html_file": "ops-sop-034.html",
+      "url": "https://yudiutomo.github.io/sop/ops-sop-034.html",
+      "source_docx": "originals/02_SOP_Rekonsiliasi_Event_Alat_dan_Downtime.docx",
+      "source_sha256": "0f6376ac2e5a14599d7e65903a4609158e36111464131d5405a52394b059d5e8",
+      "source_sections": 8,
+      "tables": 4,
+      "body_text_blocks": 69,
+      "footer_text": "Salinan dokumen terkendali"
+    },
+    {
+      "id": "OPS-STD-041",
+      "title": "STANDAR - ESKALASI OPERATIONAL EXCEPTION & MANAGEMENT BRIEFING",
+      "revision": "02",
+      "effective_date": "01 Oktober 2026",
+      "owner": "Operations Excellence",
+      "approved_by_as_written": "General Manager Operations",
+      "html_file": "ops-std-041.html",
+      "url": "https://yudiutomo.github.io/sop/ops-std-041.html",
+      "source_docx": "originals/03_Standar_Eskalasi_Operational_Exception_dan_Management_Briefing.docx",
+      "source_sha256": "6f5757d81d36d3f89ce5a65c30e0ed37227cdfd587fa09b3965fa4f7c5609acf",
+      "source_sections": 7,
+      "tables": 4,
+      "body_text_blocks": 78,
+      "footer_text": "Salinan dokumen terkendali"
+    }
+  ]
+}
